@@ -1,0 +1,77 @@
+# RTv1 config file
+
+camera:
+  - eye:
+  0.0 0 0
+  - look_at: 
+  0 0 1
+  - fov:
+  60.0
+
+light:
+  - origin:
+  12 21 456
+  - intensity:
+  60.0
+  # specular coefficient
+  - ks:
+  0.2
+  # diffuse coefficient
+  - kd:
+  0.3
+  # phong shininess
+  - n:
+  0.4
+
+object:
+  - name:
+  sphere
+  - center:
+  0 0 15
+  - radius:
+  2.0
+  - color:
+  65280
+
+object:
+  - name:
+  cylinder
+  - center:
+  20 0 30
+  - radius:
+  5
+  - color:
+   65280
+
+object:
+  # Simple comment
+  - name:
+    cone
+  - center:
+  5 0 15
+  - radius:
+  2
+  - color :
+ 12632256
+
+object:
+  # Simple comment
+  - name:
+    cone
+  - center:
+  -5 0 15
+  - radius:
+  2
+  - color :
+ 12632256
+
+object:  
+  # Points
+  - name:
+    plane
+  - center:
+  0 1 0
+  - radius:
+    0
+  - color:
+   15225749
