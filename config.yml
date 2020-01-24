@@ -13,57 +13,43 @@ light:
   12 21 456
   - intensity:
   60.0
-  # specular coefficient
-  - ks:
-  0.2
-  # diffuse coefficient
-  - kd:
-  0.3
-  # phong shininess
-  - n:
-  0.4
+
+light:
+  - origin:
+  10.2 13.4 16.9
+  - intensity:
+  60.0
 
 object:
   - name:
-  sphere
+    sphere
   - center:
   0 0 15
   - radius:
   2.0
   - color:
-  65280
+    20
 
 object:
   - name:
-  cylinder
+    cylinder
   - center:
   20 0 30
   - radius:
-  5
+  2
   - color:
-   65280
+    20
 
 object:
   # Simple comment
   - name:
     cone
   - center:
-  5 0 15
+  1 2 4
   - radius:
   2
-  - color :
- 12632256
-
-object:
-  # Simple comment
-  - name:
-    cone
-  - center:
-  -5 0 15
-  - radius:
-  2
-  - color :
- 12632256
+  - color:
+    20
 
 object:  
   # Points
@@ -71,7 +57,7 @@ object:
     plane
   - center:
   0 1 0
-  - radius:
-    0
+  radius:
+  0
   - color:
-   15225749
+    20
